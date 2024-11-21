@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width:100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.nav-left,
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(48,47,47);
+    font-size: 13px;
+}
+
+.search-bar{
+    background: red;
+    width:350px;
+    line-height: 40px;
+    border-radius: 4px;
+    background: #f0eeee;
+}
+
+.search-bar input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    width: 85%;
+    font-size: 12px;
+}
+
+.nav-right .search-bar i{
+    font-size: 13px;
+    color:#8d8b8b;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.studio span{
+    position: absolute;
+    color:rgb(238,9,47);
+    top: -5px;
+    left: 55px;
+    font-size: 11px;
+}
+
+.nav-right div{
+    margin: 0 10px;
+    text-align: center;
+}
+
+.nav-right div p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #535252;
+}
+
+.nav-right div i{
+    font-size: 18px;
+    color:#535252;
+}
+
+.nav-left i{
+    font-size: 20px;
+    background-color: #fcf5f5;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+}
+
+/*Media query */
+
+@media only screen and (max-width:1300px){
+    .nav-menu{
+        display:none;
+    }
+    .nav-left i{
+        display:block;
+    }
+    img{
+        width: 45px;
+        margin-right: 10px;
+    }
+    header{
+        height: 60px;
+    }
+    .search-bar{
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        left: 0;
+        border-radius: 50px;
+        background: #fff;
+        border: 1px solid #eee;
+    } 
+
+    .nav-right div{
+        margin: 0 7px;
+    }
+    .nav-right div p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:1280px){
+    .nav-menu{
+        display:none;
+    }
+    .nav-left i{
+        display:block;
+    }
+    img{
+        width: 45px;
+        margin-right: 10px;
+    }
+    header{
+        height: 60px;
+    }
+    .search-bar{
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        left: 0;
+        border-radius: 50px;
+        background: #fff;
+        border: 1px solid #eee;
+    } 
+
+}
+#fs{
+    
+}
+
+
+
+
